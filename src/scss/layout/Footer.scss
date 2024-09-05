@@ -1,0 +1,18 @@
+@import '../core/Variables.scss';
+.footer{
+    background-color: $dark;    
+    padding: 30px;
+    font-family: $font;    
+    min-height: auto;
+    &__link{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+        color: white;
+    }
+}
+.daliLogo{
+    width: 35px;
+}
